@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      position: relative;
+    }
+
+    .navbar {
+      background-color: #966137;
+      padding: 20px;
+      text-align: center;
+    }
+
+     .navbar a {
+      text-decoration: none;
+      color: #e9a622;
+      font-weight: bold;
+      margin: 10px;
+      font-size: 18px;
+      padding: 16px;
+    }
+
+    .navbar a:hover {
+      color: black;
+    }
+
+     .header {
+      background-color: #3c5c3c;
+      padding: 50px;
+      text-align: center;
+      color: white;
+    }
+
+    .header h2 {
+      margin: 0;
+    }
+
+    .main-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .profile-image {
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 5px #e9a622;
+    }
+
+    .yellow-table {
+      background-color: #f9e07f;
+      margin-top: 30px;
+      padding: 20px;
+      border-collapse: collapse;
+      width: 200%;
+      max-width: 900px;
+    }
+
+    .yellow-table th,
+    .yellow-table td {
+      border: 1px solid #d4b000;
+      padding: 10px;
+      text-align: left;
+    }
+
+    .iconsocialmedia {
+      position: fixed;
+      top: 50%;
+      right: 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .iconsocialmedia a img {
+      width: 32px;
+      height: 32px;
+    }
+
+    .iconsocialmedia {
+      position: fixed;
+      bottom: 20px;
+    }
+
+    .iconsocialmedia img {
+      width: 42px;
+      height: 42px;
+    }
+
+    footer {
+      background-color: #966137;
+      padding: 10px;
+      text-align: center;
+      font-size: 14px;
+      color: white;
+    }
+
+    footer a {
+      color: #ffe1a0;
+      text-decoration: underline;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+@media (max-width: 768px) {
+  .iconsocialmedia {
+    position: static;
+    flex-direction: row;
+    justify-content: center;
+    transform: none;
+    margin: 20px 0;
+  }
+}
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <div class="navbar">
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="Education.html">Education</a>
+      <a href="Experience.html">Experience</a>
+      <a href="Skills.html">Skills</a>
+      <a href="Contact.html">Contact</a>
+    </nav>
+  </div>
+
+    <div class="header">
+      <h2>About Me</h2>
+    </div>
+
+  <!-- Main Content -->
+  <div class="main-content">
+    <img src="Profile-Picture.jpg" alt="Profile Picture" class="profile-image">
+
+    <!-- Yellow Info Table -->
+    <table class="yellow-table">
+        <tr><th>Name</th><td>Nur Farah Najwa binti Muhamad Nazri</td></tr>
+        <tr><th>Title</th><td>Individual Assignment - Personal Website</td></tr>
+        <tr><th>Student ID</th><td>2024193729</td></tr>
+        <tr><th>Group</th><td>NCIMBF3A</td></tr>
+        <tr><th>Course Code</th><td>IMS458</td></tr>
+        <tr><th>Course Name</th><td>Web Design and Development</td></tr>
+        <tr><th>Program Code & Mode</th><td>CDIM262 (e-PJJ)</td></tr>
+        <tr><th>Faculty</th><td>Faculty of Information Science Studies,<br>
+                College of Computing, Information & Mathematics,<br>
+                Universti Teknologi Mara (Uitm)<br>
+                Campus Puncak Perdana, Shah Alam.</td></tr>
+        <tr><th>Submission Date</th><td>24 May 2025</td></tr>
+        <tr><th>Published URL</th><td><a href="https://yourportfolio.com" target="_blank">https://yourportfolio.com</a></td></tr>
+    </table>
+  </div>
+
+
+  <!-- Social Icons Right Center -->
+  <div class="iconsocialmedia">
+    <a href="https://www.linkedin.com" target="_blank">
+      <img src="linkedin.png" alt="LinkedIn">
+    </a>
+    <a href="https://www.facebook.com" target="_blank">
+      <img src="facebook.png" alt="Facebook">
+    </a>
+    <a href="https://www.whatsapp.com" target="_blank">
+      <img src="whatsapp.png" alt="Whatsapp">
+    </a>
+    <a href="https://mail.google.com" target="_blank">
+      <img src="gmail.png" alt="Gmail">
+    </a>
+  </div>
+
+     <!-- Footer -->
+    <footer>
+      This website is for study purposes only for course code IMS458.<br>
+      Best viewed in Google Chrome on all devices.<br>
+      Contact: <a href="mailto:2024193729@student.uitm.edu.my">2024193729@student.uitm.edu.my</a><br>
+      © All rights reserved.
+    </footer>
+  </div>
+
+</div>
+
+
+</body>
+</html>

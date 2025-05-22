@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 10;
+      height: 100%;
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+    }
+
+    .page-wrapper {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    .navbar {
+      background-color: #966137;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .navbar a {
+      text-decoration: none;
+      color: #e9a622;
+      font-weight: bold;
+      margin: 10px;
+      font-size: 18px;
+      padding: 16px;
+    }
+
+    .navbar a:hover {
+      color: black;
+    }
+
+    header img {
+      width: 100%;
+      height: auto;
+    }
+
+    .main-content {
+      display: flex;
+      padding: 40px;
+      gap: 30px;
+      flex: 1;
+    }
+
+    .profile-image {
+      width: 300px;
+      height: 400px;
+      border-radius: 10px;
+    }
+
+    .biography {
+      flex: 1;
+      line-height: 1.8;
+      font-size: 18px;
+      color: black;
+      white-space: normal;
+    }
+
+    .iconsocialmedia {
+      position: fixed;
+      top: 50%;
+      right: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      padding: 10px;
+    }
+
+    .iconsocialmedia a img {
+      width: 32px;
+      height: 32px;
+    }
+
+    .iconsocialmedia img {
+      width: 42px;
+      height: 42px;
+    }
+
+    footer {
+      background-color: #966137;
+      padding: 10px;
+      text-align: center;
+      font-size: 14px;
+      color: white;
+    }
+
+    footer a {
+      color: #ffe1a0;
+      text-decoration: underline;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+@media (max-width: 768px) {
+  .iconsocialmedia {
+    position: static;
+    flex-direction: row;
+    justify-content: center;
+    transform: none;
+    margin: 20px 0;
+  }
+
+}
+  </style>
+</head>
+<body>
+  <div class="page-wrapper">
+
+    <!-- Navbar -->
+    <div class="navbar">
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="Education.html">Education</a>
+        <a href="Experience.html">Experience</a>
+        <a href="Skills.html">Skills</a>
+        <a href="Contact.html">Contact</a>
+      </nav>
+    </div>
+
+    <!-- Header -->
+    <header>
+      <img src="Leaderboard.png" alt="Header Image">
+    </header>
+
+    <!-- Main Content -->
+    <div class="main-content">
+      <!-- Profile Picture -->
+      <img src="Profile-Picture.jpg" alt="Profile Picture" class="profile-image">
+
+      <!-- Bio Text -->
+      <div class="biography">
+        <h3>Hi, I'm Nur Farah Najwa</h3>
+        <p>
+          Welcome to my personal website! I'm Nur Farah Najwa, a passionate and ambitious student currently pursuing my studies in Information Management System. This platform serves as a digital portfolio to showcase my educational background, technical skills, professional experiences, and personal growth throughout my academic journey. I believe that every project and challenge presents a new opportunity to learn and improve, and I’m excited to share that journey with you here.
+        </p>
+
+        <p>
+          My goal with this website is to present a clear and organized view of who I am and what I’ve accomplished. Through the different sections, you'll find detailed information about my academic qualifications, hands-on projects, and the skills I have so far. I also include a breakdown of my experience, skills, and achievements to give you a better sense of my capabilities and dedication. From managing group assignments to building small web applications, I’ve developed a deep appreciation for both teamwork and independent problem-solving. This site reflects not only my academic path but also my continuous growth in the tech field.
+        </p>
+
+        <p>
+          Outside of my studies, I have a deep interest in exploring emerging technologies, reading insightful articles, and experimenting with design and user experience. I’ve created this site not just to document my progress, but to connect with others who share similar interests or may be looking for a motivated collaborator. Please feel free to browse through each section using the navigation bar above. If you have any questions or wish to get in touch, don't hesitate to reach out via the Contact page. Thank you for visiting, and I hope you enjoy learning more about me!
+        </p>
+      </div>
+    </div>
+
+
+    <!-- Social Icons (fixed to right) -->
+    <div class="iconsocialmedia">
+      <a href="https://www.linkedin.com" target="_blank">
+        <img src="linkedin.png" alt="LinkedIn">
+      </a>
+      <a href="https://www.facebook.com" target="_blank">
+        <img src="facebook.png" alt="Facebook">
+      </a>
+      <a href="https://www.whatsapp.com" target="_blank">
+        <img src="whatsapp.png" alt="Whatsapp">
+      </a>
+      <a href="https://mail.google.com" target="_blank">
+        <img src="gmail.png" alt="Gmail">
+      </a>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      This website is for study purposes only for course code IMS458.<br>
+      Best viewed in Google Chrome on all devices.<br>
+      Contact: <a href="mailto:2024193729@student.uitm.edu.my">2024193729@student.uitm.edu.my</a><br>
+      © All rights reserved.
+    </footer>
+  </div>
+
+  </div>
+</body>
+</html>

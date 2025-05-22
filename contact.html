@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f2ebe2;
+    }
+
+    .page-wrapper {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    .navbar {
+      background-color: #966137;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .navbar a {
+      text-decoration: none;
+      color: #e9a622;
+      font-weight: bold;
+      margin: 10px;
+      font-size: 18px;
+      padding: 16px;
+    }
+
+    .navbar a:hover {
+      color: black;
+      border-radius: 30px;
+    }
+
+    .header {
+      background-color: #3c5c3c;
+      padding: 50px;
+      text-align: center;
+      color: white;
+    }
+
+    .header h2 {
+      margin: 0;
+    }
+
+    .main {
+      flex: 1;
+      padding: 50px ;
+      background-color: #f5f5f5;
+    }
+
+    .contact-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      max-width: 1100px;
+      margin: auto;
+      gap: 20px;
+    }
+
+    .contact-info,
+    .contact-form {
+      background: #fff;
+      border-radius: 12px;
+      padding: 30px;
+      flex: 1 1 45%;
+      min-width: 300px;
+      border: 1px solid , black;
+    }
+
+    .contact-info h3,
+    .contact-form h3 {
+      margin-top: 0;
+      color: #333;
+    }
+
+    .contact-info p {
+      margin: 8px 0;
+      color: #555;
+    }
+
+    .contact-info i {
+      margin-right: 10px;
+      color: #e67e22;
+    }
+
+    .contact-info 
+    .iconsocialmedia {
+      margin-top: 20px;
+    }
+
+    .iconsocialmedia {
+      display: inline-block;
+      margin-right: 15px;
+    }
+
+    .iconsocialmedia img {
+      width: 40px;
+      height: 40px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 14px;
+    }
+
+    .contact-form button {
+      padding: 12px 20px;
+      background-color: #e67e22;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .contact-form button:hover {
+      background-color: #cf711e;
+    }
+
+    footer {
+      background-color: #966137;
+      padding: 10px;
+      text-align: center;
+      font-size: 14px;
+      color: white;
+    }
+
+    footer a {
+      color: #ffe1a0;
+      text-decoration: underline;
+    }
+
+  footer a:hover {
+      text-decoration: underline;
+    }
+
+  }
+  </style>
+</head>
+<body>
+
+<div class="page-wrapper">
+
+  <!-- Navbar -->
+  <div class="navbar">
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="Education.html">Education</a>
+      <a href="Experience.html">Experience</a>
+      <a href="Skills.html">Skills</a>
+      <a href="Contact.html">Contact</a>
+    </nav>
+  </div>
+
+  <!-- Header -->
+  <div class="header">
+    <h2>Contact Me</h2>
+  </div>
+
+  <!-- Main Section -->
+  <main class="main">
+    <div class="contact-container">
+
+      <!-- Contact Info -->
+      <div class="contact-info">
+        <h3>Get In Touch</h3>
+        <p>To get in touch directly, kindly find my details below:</p>
+        <p></i><strong>Address:</strong> Based in Selangor & Kuala Lumpur</p>
+        <p></i><strong>Phone:</strong> +6019-8473803</p>
+        <p></i><strong>Email:</strong> nurfarahnajwanazri@gmail.com</p>
+
+        <div class="iconsocialmedia">
+          <a href="https://www.linkedin.com" target="_blank"><img src="linkedin.png" alt="LinkedIn"></a>
+          <a href="https://www.facebook.com" target="_blank"><img src="facebook.png" alt="Facebook"></a>
+          <a href="https://www.whatsapp.com" target="_blank"><img src="whatsapp.png" alt="Whatsapp"></a>
+          <a href="https://www.gmail.com" target="_blank"><img src="gmail.png" alt="Gmail"></a>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="contact-form">
+        <h3>Send a Message</h3>
+        <form>
+          <input type="text" name="name" placeholder="Name" required>
+          <input type="text" name="company" placeholder="Company Name">
+          <input type="text" name="person" placeholder="Person In Charge">
+          <input type="tel" name="phone" placeholder="Phone Number">
+          <textarea name="description" rows="5" placeholder="Your message here..."></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Audio -->
+    <audio controls>
+      <source src="soundaudio.mp3" type="audio/mpeg">
+    </audio>
+  </main>
+
+    <!-- Footer -->
+    <footer>
+      This website is for study purposes only for course code IMS458.<br>
+      Best viewed in Google Chrome on all devices.<br>
+      Contact: <a href="mailto:2024193729@student.uitm.edu.my">2024193729@student.uitm.edu.my</a><br>
+      © All rights reserved.
+    </footer>
+  </div>
+  
+</div>
+
+</body>
+</html>

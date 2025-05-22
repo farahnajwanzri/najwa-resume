@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Skills</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f2ebe2;
+    }
+
+    .page-wrapper {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    .navbar {
+      background-color: #966137;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .navbar a {
+      text-decoration: none;
+      color: #e9a622;
+      font-weight: bold;
+      margin: 10px;
+      font-size: 18px;
+      padding: 16px;
+    }
+
+    .navbar a:hover {
+      color: black;
+    }
+
+    .header {
+      background-color: #3c5c3c;
+      padding: 50px;
+      text-align: center;
+      color: white;
+    }
+
+    .header h2 {
+      margin: 0;
+    }
+
+    .skills-section {
+      flex: 1;
+      padding: 50px 20px;
+      background-color: #f5f5f5;
+      text-align: center;
+    }
+
+    .skills-section h2 {
+      font-size: 32px;
+      color: #3c5c3c;
+      margin-bottom: 10px;
+    }
+
+    .skills-section p {
+      max-width: 600px;
+      margin: 0 auto 40px;
+      color: #555;
+      font-size: 16px;
+    }
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .skill-card {
+      background-color: white;
+      padding: 30px 20px;
+      border-radius: 15px;
+      border: 1px solid #d4b000;
+    }
+
+    .skill-card img {
+      height: 60px;
+      margin-bottom: 20px;
+    }
+
+    .skill-title {
+      font-size: 18px;
+      font-weight: bold;
+      color: #3c5c3c;
+      margin-bottom: 10px;
+    }
+
+    .skill-description {
+      color: #666;
+      font-size: 14px;
+    }
+
+    footer {
+      background-color: #966137;
+      padding: 10px;
+      text-align: center;
+      font-size: 14px;
+      color: white;
+    }
+
+    footer a {
+      color: #ffe1a0;
+      text-decoration: underline;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    .iconsocialmedia {
+      position: fixed;
+      top: 50%;
+      right: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      padding: 10px;
+    }
+
+    .iconsocialmediaa {
+      color: #3c5c3c;
+      font-size: 24px;
+    }
+
+    .iconsocialmedia a img {
+      width: 32px;
+      height: 32px;
+    }
+  }
+  </style>
+</head>
+<body>
+
+  <div class="page-wrapper">
+
+    <!-- Navigation -->
+    <div class="navbar">
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="Education.html">Education</a>
+        <a href="Experience.html">Experience</a>
+        <a href="Skills.html">Skills</a>
+        <a href="Contact.html">Contact</a>
+      </nav>
+    </div>
+
+    <!-- Header -->
+    <div class="header">
+      <h1>My Skills</h1>
+    </div>
+
+    <!-- Skills Section -->
+    <section class="skills-section">
+      <p>Here are some of the key areas I specialize in, from design and everything in between.</p>
+
+      <div class="skills-grid">
+
+        <div class="skill-card">
+          <img src="web-design.png" alt="UI/UX Icon" />
+          <div class="skill-title">UI/UX</div>
+          <div class="skill-description">Designing intuitive user interfaces and smooth user experiences.</div>
+        </div>
+
+        <div class="skill-card">
+          <img src="analysis.png" alt="Data Analysis Icon" />
+          <div class="skill-title">Data Monitoring</div>
+          <div class="skill-description">Data Monitoring and Data Visualization.</div>
+        </div>
+
+        <div class="skill-card">
+          <img src="documentation.png" alt="Documentation Icon" />
+          <div class="skill-title">Documentation</div>
+          <div class="skill-description">Creating and Build Documentation System.</div>
+        </div>
+
+        <div class="skill-card">
+          <img src="communication.png" alt="Communication Icon" />
+          <div class="skill-title">Communication</div>
+          <div class="skill-description">Coordinate and Communicate with Programmer on System Development Progress.</div>
+        </div>
+
+        <div class="skill-card">
+          <img src="training.png" alt="Training Icon" />
+          <div class="skill-title">System Training</div>
+          <div class="skill-description">Training with End Users on Hydrology System.</div>
+        </div>
+
+        <div class="skill-card">
+          <img src="partners.png" alt="Teamwork Icon" />
+          <div class="skill-title">Teamwork</div>
+          <div class="skill-description">Working as a Team to Build Strong Connection.</div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      This website is for study purposes only for course code IMS458.<br>
+      Best viewed in Google Chrome on all devices.<br>
+      Contact: <a href="mailto:2024193729@student.uitm.edu.my">2024193729@student.uitm.edu.my</a><br>
+      © All rights reserved.
+    </footer>
+  </div>
+
+    <!-- Social Icons (fixed to right) -->
+    <div class="iconsocialmedia">
+      <a href="https://www.linkedin.com" target="_blank">
+        <img src="linkedin.png" alt="LinkedIn">
+      </a>
+      <a href="https://www.facebook.com" target="_blank">
+        <img src="facebook.png" alt="Facebook">
+      </a>
+      <a href="https://www.whatsapp.com" target="_blank">
+        <img src="whatsapp.png" alt="Whatsapp">
+      </a>
+      <a href="https://mail.google.com" target="_blank">
+        <img src="gmail.png" alt="Gmail">
+      </a>
+    </div>
+
+</body>
+</html>

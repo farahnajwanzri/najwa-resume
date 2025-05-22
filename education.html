@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Education</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+    }
+
+    .page-wrapper {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    main {
+      flex: 1;
+      padding: 20px;
+    }
+
+    .navbar {
+      background-color: #966137;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .navbar a {
+      text-decoration: none;
+      color: #e9a622;
+      font-weight: bold;
+      margin: 10px;
+      font-size: 18px;
+      padding: 16px;
+    }
+
+    .navbar a:hover {
+      color: black;
+    }
+
+
+    .header {
+      background-color: #3c5c3c;
+      padding: 50px;
+      text-align: center;
+      color: white;
+    }
+
+    .header h2 {
+      margin: 0;
+    }
+
+    .educationtable {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 20px;
+      border-radius: 15px;
+    }
+
+    table {
+      width: 100%;
+      border: 1px solid #d4b000;
+    }
+
+    th, td {
+      padding: 15px;
+      text-align: left;
+      border: 1px solid #d4b000;
+    }
+
+    th {
+      background-color: #3c5c3c;
+      color: white;
+    }
+
+    footer {
+      background-color: #966137;
+      padding: 10px;
+      text-align: center;
+      font-size: 14px;
+      color: white;
+    }
+
+    footer a {
+      color: #ffe1a0;
+      text-decoration: none;
+      text-decoration: underline;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    .iconsocialmedia {
+      position: fixed;
+      top: 50%;
+      right: 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .iconsocialmedia a img {
+      width: 32px;
+      height: 32px;
+    }
+
+    @media (max-width: 768px) {
+      .iconsocialmedia {
+        position: static;
+        flex-direction: row;
+        justify-content: center;
+        transform: none;
+        margin: 20px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="page-wrapper">
+
+    <!-- Navbar -->
+    <div class="navbar">
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="Education.html">Education</a>
+        <a href="Experience.html">Experience</a>
+        <a href="Skills.html">Skills</a>
+        <a href="Contact.html">Contact</a>
+      </nav>
+    </div>
+
+    <!-- Header -->
+    <div class="header">
+      <h2>Education</h2>
+    </div>
+
+    <!-- Main content -->
+    <main>
+      <div class="educationtable">
+        <table>
+          <thead>
+            <tr>
+              <th>Year</th>
+              <th>Course</th>
+              <th>Name of Faculty</th>
+            </tr>
+          </thead>
+          <body>
+            <tr>
+              <td>March 2024 – Present</td>
+              <td>Bachelor of Information Science (Hons) Information Systems Management</td>
+              <td>UiTM Puncak Perdana, Shah Alam</td>
+            </tr>
+            <tr>
+              <td>July 2018 – Dec 2020</td>
+              <td>Diploma in Information Technology (Technology Digital)</td>
+              <td>Politeknik Muadzam Shah, Pahang</td>
+            </tr>
+            <tr>
+              <td>Achievements</td>
+              <td colspan="2">
+                • Dean's List: 3 consecutive semesters<br>
+                • Final Year Project Award<br>
+                • Outreach IT Programme Volunteer
+              </td>
+            </tr>
+          </body>
+        </table>
+      </div>
+    </main>
+
+    <!-- Social Icons -->
+    <div class="iconsocialmedia">
+      <a href="https://www.linkedin.com" target="_blank">
+        <img src="linkedin.png" alt="LinkedIn">
+      </a>
+      <a href="https://www.facebook.com" target="_blank">
+        <img src="facebook.png" alt="Facebook">
+      </a>
+      <a href="https://www.whatsapp.com" target="_blank">
+        <img src="whatsapp.png" alt="Whatsapp">
+      </a>
+      <a href="https://mail.google.com" target="_blank">
+        <img src="gmail.png" alt="Gmail">
+      </a>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      This website is for study purposes only for course code IMS458.<br>
+      Best viewed in Google Chrome on all devices.<br>
+      Contact: <a href="mailto:2024193729@student.uitm.edu.my">2024193729@student.uitm.edu.my</a><br>
+      © All rights reserved.
+    </footer>
+
+  </div>
+</body>
+</html>
